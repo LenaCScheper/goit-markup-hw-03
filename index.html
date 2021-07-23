@@ -15,8 +15,8 @@ rel="stylesheet"
 </head>
 <body>
     <header class="page-header">
-      <div class="container">
-        <nav>
+      <div class="container-main">
+        <nav class="container-main-nav">
             <a class="logo" href="./index.html"><span class="logo-accent">Web</span> Studio </a>
             <ul class="site-nav">
                 <li class="site-nav-item"> <a href=""class="site-nav-link-current">Студия</a></li>
@@ -26,19 +26,21 @@ rel="stylesheet"
         </nav>
         
             <ul class="contact-nav">
-                 <li><a href ="mailto:info@devstudio.com" class="contact-nav-title">info@devstudio.com</a></li>
+                 <li class="contact-nav-item"><a href ="mailto:info@devstudio.com" class="contact-nav-title">info@devstudio.com</a></li>
        
-                 <li><a href="tel:+380961111111" class="contact-nav-title">+38 (096) 111-11-11</a></li>
+                 <li class="contact-nav-item"><a href="tel:+380961111111" class="contact-nav-title">+38 (096) 111-11-11</a></li>
              </ul>
         </div>
     </header>
     <main>
         <!--Уникальное предложение-->
         <section class="hero">
+            <div class="container">
             <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br> ДЛЯ ВАШЕГО БИЗНЕСА</h1>
             
      <span class="hero-button"> <button type="button" class="hero-button-main">Заказать услугу</button> </span>
-        </section>
+    </div>  
+    </section>
         <!--Уникальные услуги-->
        
         <section class="section">
@@ -71,9 +73,9 @@ rel="stylesheet"
             <div class="container" >
              <h2 class="section-title">Чем мы занимаемся</h2>
                  <ul class="pictures">
-                 <li><img src="img/box1.jpg" alt="набирает текс"width="370"></li>
-                 <li><img src="img/box2.jpg" alt="мобильное приложение"width="370"></li>
-                    <li><img src="img/box3.jpg" alt="планшет"width="370"></li>
+                 <li class="pictures-item"><img src="img/box1.jpg" alt="набирает текс"width="370"></li>
+                 <li class="pictures-item"><img src="img/box2.jpg" alt="мобильное приложение"width="370"></li>
+                 <li class="pictures-item"><img src="img/box3.jpg" alt="планшет"width="370"></li>
                  </ul>
             </div>
         </section>
@@ -82,19 +84,19 @@ rel="stylesheet"
             <div class="container" >
             <h2 class="comands-title">Наша команда</h2>
             <ul class="comands-item">
-                <li><img src="img/img (1).jpg" alt="дизайнер продукта"width="270">
+                <li class="comands-title-top"><img src="img/img (1).jpg" alt="дизайнер продукта"width="270">
                      <h3 class="comands-title-workers"> Игорь Демяненко</h3> 
                      <p class="comands-title-proffesion">Product Designer</p>
                 </li>
-                <li><img src="img/img (2).jpg" alt="разработчик"width="270">
+                <li class="comands-title-top"><img src="img/img (2).jpg" alt="разработчик"width="270">
                      <h3 class="comands-title-workers">Ольга Репина</h3>
                       <p class="comands-title-proffesion">Frontend Developer</p>
                 </li>
-                <li><img src="img/img (3).jpg" alt="маркетинг"width="270">
+                <li class="comands-title-top"><img src="img/img (3).jpg" alt="маркетинг"width="270">
                 <h3 class="comands-title-workers">Николай Тарасов</h3>
                 <p class="comands-title-proffesion">Marketing</p>
                 </li>
-                <li><img src="img/img (4).jpg" alt="дизайнер"width="270">
+                <li class="comands-title-top"><img src="img/img (4).jpg" alt="дизайнер"width="270">
                 <h3 class="comands-title-workers">Михаил Ермаков</h3>
                 <p class="comands-title-proffesion">UI Designer</p>
             </li>
@@ -111,8 +113,8 @@ rel="stylesheet"
                 
                  <ul class="information-addres">
                     <li class="information-addres-street"> г.Киев,пр-т Леси Украинки, 26</li>
-                   <li  <a href="mailto:info@example.com" class="information-addres-list">info@example.com</a> </li>
-                   <li <a href="tel:+380991111111" class="information-addres-list">+38 099 111 11 11</a> </li>
+                   <li> <a href="mailto:info@example.com" class="information-addres-list">info@example.com</a> </li>
+                   <li > <a href="tel:+380991111111" class="information-addres-list">+38 099 111 11 11</a> </li>
                      </ul>
                 </address>
          </div>     

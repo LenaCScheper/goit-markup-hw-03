@@ -9,30 +9,33 @@
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
 rel="stylesheet"
 />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"/>
     <link rel="stylesheet" href="./css/style.css"/>
 </head>
 <body>
-<header>
-    
-        <nav>
-            <a class="logo" href="./index.html"><span class="logo-accent">Web</span> Studio </a>
-            <ul class="site-nav">
-                <li> <a href="./index.html"class="site-nav-link">Студия</a></li>
-                <li><a href=""class="site-nav-link-current">Портфолио</a></li>
-                <li><a href=""class="site-nav-link">Контакты</a></li>
-            </ul>
-        </nav>
-    
-        <ul class="contact-nav">
-            <li><a href ="mailto:info@devstudio.com" class="contact-nav-title">info@devstudio.com</a></li>
-  
-            <li><a href="tel:+380961111111" class="contact-nav-title">+38 (096) 111-11-11</a></li>
-        </ul>
-</header>
+    <header class="page-header">
+        <div class="container-main">
+          <nav class="container-main-nav">
+              <a class="logo" href="./index.html"><span class="logo-accent">Web</span> Studio </a>
+              <ul class="site-nav">
+                  <li class="site-nav-item"> <a href="./index.html"class="site-nav-link">Студия</a></li>
+                  <li class="site-nav-item"><a href=""class="site-nav-link-current ">Портфолио</a></li>
+                  <li class="site-nav-item"><a href=""class="site-nav-link">Контакты</a></li>
+              </ul>
+          </nav>
+          
+              <ul class="contact-nav">
+                   <li class="contact-nav-item"><a href ="mailto:info@devstudio.com" class="contact-nav-title">info@devstudio.com</a></li>
+         
+                   <li class="contact-nav-item"><a href="tel:+380961111111" class="contact-nav-title">+38 (096) 111-11-11</a></li>
+               </ul>
+          </div>
+      </header>
 
     <main>
          <!--Навигация-->
          <section>
+             <div class="container">
              <h1>Filter</h1>
          <ul class="filter">
             <li class="filter-item"> <button type= "button" class="filter-button-main"> Все </button> </li>
@@ -71,22 +74,24 @@ rel="stylesheet"
                 <p class="gallery-text">Приложение</p></a> </li>
            
             </ul>
+        </div>
         </section>
     </main>
 
 <footer class="information">
+    <div class="container">
             
     <a class="information-logo" href="./index.html"> <span class="logo-accent">Web</span>Studio</a>
     <address>
     
      <ul class="information-addres">
         <li class="information-addres-street"> г.Киев,пр-т Леси Украинки, 26</li>
-       <li  <a href="mailto:info@example.com" class="information-addres-list">info@example.com</a> </li>
-       <li <a href="tel:+380991111111" class="information-addres-list">+38 099 111 11 11</a> </li>
+       <li>  <a href="mailto:info@example.com" class="information-addres-list">info@example.com</a> </li>
+       <li> <a href="tel:+380991111111" class="information-addres-list">+38 099 111 11 11</a> </li>
          </ul>
     </address>
     
-
+</div>
 </footer>
 </body>
 </html>
